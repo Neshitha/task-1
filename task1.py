@@ -1,7 +1,7 @@
 def count_vowels_and_consonants(string):
     vowels = "aeiou"
-    vowel_count = 0
-    consonant_count = 0
+    vowel_count,consonant_count = 0, 0
+    
 
     for char in string:
         if char.lower() in vowels:
@@ -16,6 +16,5 @@ def count_vowels_and_consonants(string):
 
     return counts
 a = input()
-res = dict()
 res = count_vowels_and_consonants(a)
 print(res)
