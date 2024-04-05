@@ -17,4 +17,4 @@ def count_vowels_and_consonants(string):
     return counts
 a = input("enter any string")
 res = count_vowels_and_consonants(a)
-print(res)
+print("output : ",res)
